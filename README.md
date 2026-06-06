@@ -8,16 +8,6 @@ To keep this document short and easy, we won't go into the app development itsel
 
 Let's jump into action by packaging [BTC RPC Explorer](https://github.com/janoside/btc-rpc-explorer), a Node.js based app, for Umbrel.
 
-There are 4 steps:
-
-1. [🛳 Containerizing the app using Docker](#1-containerizing-the-app-using-docker)
-1. [☂️ Packaging the app for umbrelOS](#2-%EF%B8%8Fpackaging-the-app-for-umbrelos)
-1. [🛠 Testing the app on umbrelOS](#3-testing-the-app-on-umbrelos)
-    1. [Test using an umbrelOS development environment on your local machine](#31-test-using-an-umbrelos-development-environment-on-your-local-machine)
-    1. [Test using umbrelOS running on a physical device](#32-test-using-umbrelos-running-on-a-physical-device)
-1. [🚀 Submitting the app](#4-submitting-the-app)
-___
-
 ## 1. 🛳&nbsp;&nbsp;Containerizing the app using Docker
 
 1\. Let's start by cloning BTC RPC Explorer on our system:
